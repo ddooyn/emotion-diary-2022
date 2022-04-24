@@ -4,6 +4,7 @@ const fontSizes = {
   title: pixelToRem(48),
   subtitle: pixelToRem(36),
   paragraph: pixelToRem(24),
+  button: pixelToRem(20),
 };
 
 const colors = {
