@@ -31,8 +31,8 @@ body {
 }
 
 .App {
+  padding: 20px;
   min-height: 100vh;
-  padding: 0 20px 0 20px;
 }
 
 @media screen and (min-width: 650px) {

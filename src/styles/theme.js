@@ -12,18 +12,18 @@ const colors = {
   grey: "#ececec",
   green: "#65c964",
   red: "#fd565f",
+  line: "#e2e2e2",
 };
 
 const flex = {
   center: `
     display: flex;
-    justify-contents: center;
     align-items: center;
   `,
   centerCol: `
     display: flex;
     flex-direction: column;
-    justify-contents: center;
+    justify-content: center;
     align-items: center;
   `,
 };
