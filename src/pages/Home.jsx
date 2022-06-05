@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import PageTitle from '../components/PageTitle';
 import Header from '../components/Header';
 import Button from '../components/Button';
+import DiaryList from '../components/DiaryList';
 
 const Home = () => {
   const diaryList = useContext(DiaryStateContext);
@@ -58,6 +59,7 @@ const Home = () => {
       />
       <HomeContainer className="App">
         <h1>Home</h1>
+        <DiaryList diaryList={data} />
       </HomeContainer>
     </>
   );
