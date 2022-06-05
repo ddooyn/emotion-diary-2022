@@ -8,6 +8,7 @@ const fontSizes = {
 };
 
 const colors = {
+  white: "#ffffff",
   black: "#000000",
   grey: "#ececec",
   green: "#65c964",

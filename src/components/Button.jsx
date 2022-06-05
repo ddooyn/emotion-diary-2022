@@ -21,6 +21,7 @@ const Btn = styled.button`
   padding: 10px 20px 10px 20px;
   border: none;
   border-radius: 5px;
+  color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fontSizes.button};
   white-space: nowrap;
   cursor: pointer;
@@ -32,5 +33,6 @@ const Btn = styled.button`
   }
   &.default {
     background-color: ${({ theme }) => theme.colors.grey};
+    color: ${({ theme }) => theme.colors.black};
   }
 `;
